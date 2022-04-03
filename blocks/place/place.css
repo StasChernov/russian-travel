@@ -25,6 +25,12 @@
   }
 }
 
+@media screen and (max-width: 760px) {  
+  .place {
+    grid-template-columns: 47% 1fr;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .place {
     display: flex;
