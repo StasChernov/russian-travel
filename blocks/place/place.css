@@ -2,7 +2,7 @@
   max-width: 984px;
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: minmax(338px, 47%) 1fr;
+  grid-template-columns: 47% 1fr;
   grid-template-rows: min-content 1fr;
   row-gap: 48px;
   column-gap: 40px;
@@ -19,9 +19,9 @@
   }
 }
 
-@media screen and (max-width: 760px) {  
+@media screen and (max-width: 768px) {  
   .place {
-    grid-template-columns: 47% 1fr;
+    grid-template-columns: 338px 1fr;
   }
 }
 

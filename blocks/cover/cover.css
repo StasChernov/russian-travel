@@ -1,12 +1,16 @@
 .cover {
- 
   background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  width: 100%;
-  padding-top: 62%;
-  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 21%;
+  padding-bottom: 21%;
   cursor: pointer;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
 }
 
 .cover::before {
@@ -16,7 +20,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-
   background: #2A2C2F;
   opacity: 0.3;
 }
