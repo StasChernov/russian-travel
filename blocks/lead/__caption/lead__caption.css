@@ -8,3 +8,15 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin-left: calc(1024px - 100vw) ;
+  }
+} 
+
+@media screen and (max-width: 1000px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+} 
