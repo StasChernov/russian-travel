@@ -11,12 +11,18 @@
 
 @media screen and (max-width: 1024px) {
   .lead__caption {
-    margin-left: calc(1024px - 100vw) ;
+    margin-left: calc(1024px - 100vw);
   }
 } 
 
 @media screen and (max-width: 1000px) {
   .lead__caption {
     margin-left: 24px;
+  }
+} 
+
+@media screen and (max-width: 600px) {
+  .lead__caption {
+    margin-left: 16px;
   }
 } 

@@ -3,10 +3,6 @@
   object-fit: content;
 }
 
-.header__logo:hover {
-  opacity:0.8;
-}
-
 @media screen and (max-width: 600px) {
   .header__logo {
     height: 42px;
